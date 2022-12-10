@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 
+	"github.com/MisLink/protoc-gen-go-json/gen"
 	"github.com/golang/glog"
-	"github.com/mitchellh/protoc-gen-go-json/gen"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/types/pluginpb"
 )
